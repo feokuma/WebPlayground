@@ -6,5 +6,5 @@ const fernando = {
     nome: 'fernando okuma',
     idade: 38
 }
-const {nome} = fernando
+const { nome } = fernando
 console.log(nome);
