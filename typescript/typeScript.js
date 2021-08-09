@@ -8,5 +8,5 @@ var Pessoa = /** @class */ (function () {
     };
     return Pessoa;
 }());
-var pessoa = new Pessoa('Fernando', 'Okuma');
+var pessoa = new Pessoa("Fernando", "Okuma");
 console.log(pessoa.NomeCompleto());
