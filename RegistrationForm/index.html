@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          placeholder="Your Name"
+          name="name"
+          class="input-field"
+        />
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          placeholder="Email Address"
+          name="email"
+          class="input-field"
+        />
+        <label>Gender</label>
+        <div class="radio-btn">
+          <label>
+            <input type="radio" name="gender" value="male" />
+            <span class="mark"></span>
+            <span class="btn-border"></span>
+            Male
+          </label>
+          <label>
+            <input type="radio" name="gender" value="female" />
+            <span class="mark"></span>
+            <span class="btn-border"></span>
+            Female
+          </label>
+        </div>
+        <label>Date of Birth</label>
+        <input type="number" placeholder="DD/MM/YYYY" class="input-field" />
+        <div class="text">
+          <input type="checkbox" class="checkbox-accept" />
+          <p>I accept the <a href="#">terms & conditions</a></p>
+        </div>
+        <div class="btn">
+          <button>Create Account</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
